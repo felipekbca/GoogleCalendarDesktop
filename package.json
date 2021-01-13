@@ -1,0 +1,50 @@
+{
+  "name": "google-calendar-desktop",
+  "productName": "Google Calendar Desktop",
+  "version": "1.2.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder build",
+    "build": "electron-builder build",
+    "postinstall": "electron-builder install-app-deps",
+    "build-mac": "electron-builder build --mac"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Felipe Amaro",
+    "email": "felipe@verticol.com.br"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-context-menu": "^2.4.0"
+  },
+  "build": {
+    "appId": "xyz.verticol.googlecalendar",
+    "productName": "Google Calendar Desktop",
+    "asar": true,
+    "artifactName": "google-calendar-${version}-${arch}.${ext}",
+    "mac": {
+      "icon": "assets/icon.icns",
+      "category": "public.app-category.utilities",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist"
+    },
+    "dmg": {
+      "sign": false
+    }
+  },
+  "files": [
+    "**/*",
+    "assets/icon.*",
+    "assets/icons/*"
+  ]
+}
