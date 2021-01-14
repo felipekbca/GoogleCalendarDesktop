@@ -2,7 +2,7 @@
 
 While google does not release an official desktop version of google calendar. This is an alternative
 
-<img title="" src="file:///Users/felipe.amaro/OneDrive/workspace/Electron/google-calendar/assets/app_screen.png" alt="" width="" data-align="center">
+<img title="" src="./assets/app_screen.png" alt="" width="" data-align="center">
 
 # Download Google Calendar Desktop
 
