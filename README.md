@@ -6,8 +6,7 @@ While google does not release an official desktop version of google calendar. Th
 
 # Download Google Calendar Desktop
 
-is available to download for macOS. Precompiled downloads are available from our downloads page [releases](https://github.com/felipekbca/GoogleCalendarDesktop/releases)
-
+It is available to download for macOS. Precompiled downloads are available here [releases](https://github.com/felipekbca/GoogleCalendarDesktop/releases)
 
 
 ## Building
