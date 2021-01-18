@@ -24,7 +24,7 @@ First, clone the repo via git and install dependencies:
 ```bash
 git clone https://github.com/felipekbca/GoogleCalendarDesktop.git
 cd GoogleCalendarDesktop
-npm install all
+npm install
 ```
 
 ## Starting Development
